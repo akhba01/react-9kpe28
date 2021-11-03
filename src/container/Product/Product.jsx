@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './Product.css' 
 class Product extends Component{
   render(){
     return(
@@ -9,6 +9,7 @@ class Product extends Component{
                 </div>
         <div className="troley">
           <img src="" alt=""/>
+          <div className="count"></div>
         </div>
       <div className = "card">
             <div className="img-thumb-prod">
@@ -21,6 +22,7 @@ class Product extends Component{
         <div className="counter">
           <button className="MINUS"></button>
           <img src="" alt=""/>
+          <input type="text" value={3}/>
             <button className="PLUS"></button>
         </div>
       </div>
